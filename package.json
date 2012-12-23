@@ -1,0 +1,25 @@
+{
+  "name": "MoncurFlixAPI",
+  "author": "caseymonc@gmail.com",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "url": "git@github.com:caseymonc/MoncurFlix.git"
+  },
+  "scripts": {
+    "start": "coffee api.coffee"
+  },
+  "main": "api.coffee",
+  "dependencies": {
+    "coffee-script": "~1.4.0",
+    "express": "3.0.0",
+    "mongoose": "2.6.0",
+    "coffee-resque": "~0.1.8",
+    "async": "~0.1.22",
+    "querystring": "~0.1.0"
+  },
+  
+  "engines": {
+    "node": "0.8.*"
+  }
+}
