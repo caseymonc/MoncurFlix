@@ -1,25 +1,22 @@
 {
-  "name": "MoncurFlixAPI",
-  "author": "caseymonc@gmail.com",
+  "name": "movieservice",
   "version": "0.0.1",
-  "private": true,
-  "repository": {
-    "url": "git@github.com:caseymonc/MoncurFlix.git"
-  },
+  "private": false,
   "scripts": {
-    "start": "coffee api.coffee"
+    "start": "node_modules/.bin/coffee init.coffee"
   },
-  "main": "api.coffee",
+  "main": "app.coffee",
   "dependencies": {
-    "coffee-script": "~1.4.0",
-    "express": "3.0.0",
-    "mongoose": "2.6.0",
-    "coffee-resque": "~0.1.8",
-    "async": "~0.1.22",
-    "querystring": "~0.1.0"
+    "express": "2.5.11",
+    "request": "2.9.202",
+    "coffee-script": "~1.3.3",
+    "mongoose": "~3.2.1",
+    "moviedb": "0.0.4",
+    "tomatoes": "0.0.1",
+    "tmdbv3":"0.1.2"
+
   },
-  
   "engines": {
-    "node": "0.8.*"
+    "node": "0.6.x"
   }
 }
