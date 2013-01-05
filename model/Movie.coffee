@@ -44,4 +44,7 @@ module.exports = (db) ->
 
     @where("rating").in(rating_array).exec cb
 
+  MovieSchema.statics.getMoviesByIds = (ids, cb) ->
+    @where("_id").in(ids).exec cb
+
   Movie = db.model "Movie", MovieSchema

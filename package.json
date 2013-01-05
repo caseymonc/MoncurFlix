@@ -13,8 +13,11 @@
     "mongoose": "~3.2.1",
     "moviedb": "0.0.4",
     "tomatoes": "0.0.1",
-    "tmdbv3":"0.1.2"
-
+    "tmdbv3":"0.1.2",
+    "mocha": "~1.7.0",
+    "supertest": "0.4.0",
+    "passport": "0.1.15",
+    "passport-local": "0.1.6"
   },
   "engines": {
     "node": "0.6.x"
